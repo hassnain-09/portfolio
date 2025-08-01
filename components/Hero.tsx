@@ -42,7 +42,7 @@ function Hero() {
               className="text-[40px] md:text-5xl lg:text-6xl font-bold "
             />
             <p className="text-center md:tracking-widest text-sm md:text-lg lg:text-2xl mb-4">
-              Hi, I'am Hassnain Ali, Web developer based in Pakistan
+              Hi, I&apos;am Hassnain Ali , Web developer based in Pakistan
             </p>
             <MagicButton
               title="Show my work"

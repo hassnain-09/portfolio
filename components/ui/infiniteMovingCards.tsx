@@ -85,7 +85,7 @@ export const InfiniteMovingCards = ({
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
-        {items.map((item, idx) => (
+        {items.map((item) => (
           <li
             className="relative w-[90vw] max-w-full shrink-0 rounded-2xl border  border-slate-800 p-3 md:p-5 md:w-[60vw] "
             key={item.name}

@@ -1,8 +1,6 @@
 "use client"
 import { cn } from "@/lib/utils"
 import { BackgroundGradientAnimation } from "./gradientBg"
-import { GlobeDemo } from "./gridGlobe"
-import { div } from "motion/react-client"
 import Lottie from "react-lottie"
 import { useState } from "react"
 import confetti from "@/data/confetti.json"
@@ -32,8 +30,7 @@ export const BentoGridItem = ({
   className,
   title,
   description,
-  header,
-  icon,
+
   id,
   titleClassName,
   img,
@@ -43,8 +40,7 @@ export const BentoGridItem = ({
   className?: string
   title?: string | React.ReactNode
   description?: string | React.ReactNode
-  header?: React.ReactNode
-  icon?: React.ReactNode
+
   id?: number
   titleClassName?: string
   img?: string

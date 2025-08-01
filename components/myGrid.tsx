@@ -4,24 +4,6 @@ import { FaCloud, FaLock, FaDatabase } from "react-icons/fa"
 import { gridItems } from "@/data"
 
 const MyGrid = () => {
-  const items = [
-    {
-      title: "Cloud Ready",
-      description: "Deploy to the cloud with ease and flexibility.",
-      icon: <FaCloud className="text-blue-600" />,
-    },
-    {
-      title: "Secure by Design",
-      description: "End-to-end encryption and secure protocols.",
-      icon: <FaLock className="text-green-600" />,
-    },
-    {
-      title: "Data Insights",
-      description: "Gain insights from your data effortlessly.",
-      icon: <FaDatabase className="text-purple-600" />,
-    },
-  ]
-
   return (
     <section id="about">
       <BentoGrid>
