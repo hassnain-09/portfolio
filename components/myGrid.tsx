@@ -1,6 +1,6 @@
 import React from "react"
 import { BentoGrid, BentoGridItem } from "@/components/ui/bentoGrid"
-import { FaCloud, FaLock, FaDatabase } from "react-icons/fa"
+
 import { gridItems } from "@/data"
 
 const MyGrid = () => {

@@ -11,7 +11,7 @@ const recentProjects = () => {
         <span className="text-purple">recent Projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-7 mt-10">
-        {projects.map(({ id, title, des, img, iconLists, link }, index) => {
+        {projects.map(({ id, title, des, img, iconLists, link }) => {
           return (
             <div
               key={id}
